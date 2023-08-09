@@ -1,7 +1,7 @@
 let express = require('express');
 let app = express();
 const { MongoClient, ServerApiVersion } = require('mongodb');
-const uri = "mongodb+srv://admin:admin@cluster0.jnyrznl.mongodb.net/?retryWrites=true&w=majority";
+const uri = "mongodb+srv://wangyuheng086:admin@cluster0.6qq3o2w.mongodb.net/?retryWrites=true&w=majority";
 let port = process.env.port || 3000;
 let collection;
 
